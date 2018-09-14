@@ -1,0 +1,57 @@
+
+
+           /*     TABLEAU  */
+.table
+{
+    margin:auto;
+    overflow: auto; 
+}
+
+.reward{
+    border: 1px solid white ;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    position:absolute;
+    background-color:#F5F3F2;
+    margin-top: 0px;
+    margin-left: 0px;
+    opacity: 0.8;
+    font-size: 30px;
+}
+p
+{
+    font-size: 20px;
+}
+.gandalf
+{
+    font-size: 90px;
+    position:absolute;
+    color:white;
+    margin-top: 80px;
+    margin-left: 20px;
+    font-size: 40px;
+}
+.image
+{
+    width: 200px;
+    height: 200px;
+    opacity: 0.2;
+    position: relative;
+    float: left;
+}
+.gandalf:hover
+{
+    opacity:0px;
+}
+.picture:hover .image
+{
+    opacity:1;
+}
+.reward:hover{
+    opacity: 0;
+}
+
+.gandalf:hover{
+    opacity:0;
+}
